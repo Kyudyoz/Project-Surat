@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('container')
-<div class="container1">
-    <div class="row justify-content-center align-items-center" style="height: 100vh">
+<div class="container1 my-4">
+    <div class="row justify-content-center align-items-center">
         <div class="col-md-6">
             <h2 class="text-center mb-4">Surat Keterangan Domisili</h2>
             

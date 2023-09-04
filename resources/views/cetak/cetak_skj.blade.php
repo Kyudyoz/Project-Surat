@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="shortcut icon" href="{{ URL::asset('/img/surat.png') }}" type="image/png">
-    <title>Surat Keterangan Janda</title>
+    <title>Surat Keterangan {{ $status }}</title>
     <style>
         .container {
             max-width: 600px;
@@ -28,7 +28,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <h4 style="text-decoration: underline" class="fs-2 mt-4">Surat Keterangan Janda</h4>
+                <h4 style="text-decoration: underline" class="fs-2 mt-4">Surat Keterangan {{ $status }}</h4>
             </div>
         </div>
         <div class="row">
@@ -70,7 +70,13 @@
             </div>
         </div>
         <div class="keterangan">      
-            <p class="mt-4">Adalah benar berstatus <strong>JANDA</strong> <span style="text-transform: capitalize">({{ ucfirst($cerai) }})</span> dari suaminya <strong>{{ strtoupper($suami) }}</strong>.</p>
+            <p class="mt-4">Adalah benar berstatus <strong>{{ strtoupper($status) }}</strong> <span style="text-transform: capitalize">({{ ucfirst($cerai) }})</span> dari 
+                @if ($status == "Duda")
+                    istrinya
+                @elseif ($status == "Janda")
+                    suaminya    
+                @endif
+                <strong>{{ strtoupper($pasangan) }}</strong>.</p>
             <p>Demikian surat keterangan ini dikeluarkan untuk dapat digunakan sebagaimana mestinya</p>
         </div>
         <div class="container1" style="margin-top: 10%">

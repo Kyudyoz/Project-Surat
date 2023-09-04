@@ -19,9 +19,15 @@ class PendudukController extends Controller
         if ($data -> isEmpty()) {
             return redirect('/sktm')->with('gagal','NIK tidak ada');
         }
+       
         $pdf = Pdf::loadView('cetak.cetak_sktm',['data' => $data])->setPaper('a4', 'potrait');
-        // dd($request->nik);
-        return $pdf->stream('cetak_sktm.pdf');
+        $namaPdf = 'SKTM_';
+        foreach ($data as $penduduk) {
+        $namaPdf .= $penduduk->nama;
+        }
+        $namaPdf .= '.pdf';
+
+        return $pdf->stream($namaPdf);
     }
 
     public function cetak_skd(Request $request){
@@ -41,26 +47,45 @@ class PendudukController extends Controller
             
         ])->setPaper('a4', 'potrait');
         // dd($request->nik, $request->tinggal, $request->keperluan);
-        return $pdf->stream('cetak_skd.pdf');
+        $namaPdf = 'Surat Keterangan Domisili_';
+        foreach ($data as $penduduk) {
+        $namaPdf .= $penduduk->nama;
+        }
+        $namaPdf .= '.pdf';
+
+        return $pdf->stream($namaPdf);
     }
 
     public function cetak_skj(Request $request){
         $data = Penduduk::where('nik', $request->nik)->get();
         $cerai = $request->cerai;
-        $suami = $request->suami;
+        $pasangan = $request->pasangan;
         if ($data -> isEmpty()) {
             return redirect('/skj')->with('gagal','NIK tidak ada');
         }
 
        
+        
+        $namaPdf = 'Surat Keterangan Janda_';
+        foreach ($data as $penduduk) {
+        $namaPdf .= $penduduk->nama;
+            if ($penduduk->jenis_kelamin == "Perempuan") {
+                $status = "Janda";
+            } elseif ($penduduk->jenis_kelamin == "Laki-laki") {
+                $status = "Duda";
+            }
+        }
+        $namaPdf .= '.pdf';
         $pdf = Pdf::loadView('cetak.cetak_skj',
         [
             'data' => $data,
-            'suami' => $suami,
+            'pasangan' => $pasangan,
             'cerai' => $cerai,
+            'status' => $status,
             
         ])->setPaper('a4', 'potrait');
-        return $pdf->stream('cetak_skj.pdf');
+
+        return $pdf->stream($namaPdf);
     }
 
     public function cetak_skkr(Request $request){
@@ -77,7 +102,13 @@ class PendudukController extends Controller
             'alamat_rumah' => $alamat_rumah,
             
         ])->setPaper('a4', 'potrait');
-        return $pdf->stream('cetak_skkr.pdf');
+        $namaPdf = 'Surat Keterangan Kepemilikan Rumah_';
+        foreach ($data as $penduduk) {
+        $namaPdf .= $penduduk->nama;
+        }
+        $namaPdf .= '.pdf';
+
+        return $pdf->stream($namaPdf);
     }
 
     public function cetak_sku(Request $request){
@@ -99,7 +130,13 @@ class PendudukController extends Controller
             
         ])->setPaper('a4', 'potrait');
         
-        return $pdf->stream('cetak_sku.pdf');
+        $namaPdf = 'Surat Keterangan Usaha_';
+        foreach ($data as $penduduk) {
+        $namaPdf .= $penduduk->nama;
+        }
+        $namaPdf .= '.pdf';
+
+        return $pdf->stream($namaPdf);
     }
 
     public function cetak_skk(Request $request){
@@ -111,7 +148,7 @@ class PendudukController extends Controller
         $dikarenakan = $request->dikarenakan;
         $dimakamkan = $request->dimakamkan;
         if ($data -> isEmpty()) {
-            return redirect('/sku')->with('gagal','NIK tidak ada');
+            return redirect('/skk')->with('gagal','NIK tidak ada');
         }
 
        
@@ -127,7 +164,13 @@ class PendudukController extends Controller
             
         ])->setPaper('a4', 'potrait');
         
-        return $pdf->stream('cetak_skk.pdf');
+        $namaPdf = 'Surat Keterangan Kematian_';
+        foreach ($data as $penduduk) {
+        $namaPdf .= $penduduk->nama;
+        }
+        $namaPdf .= '.pdf';
+
+        return $pdf->stream($namaPdf);
     }
 
     
