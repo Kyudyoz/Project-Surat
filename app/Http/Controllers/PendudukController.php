@@ -66,16 +66,16 @@ class PendudukController extends Controller
 
        
         
-        $namaPdf = 'Surat Keterangan Janda_';
+        $namaPdf = "Surat Keterangan ";
         foreach ($data as $penduduk) {
-        $namaPdf .= $penduduk->nama;
             if ($penduduk->jenis_kelamin == "Perempuan") {
                 $status = "Janda";
             } elseif ($penduduk->jenis_kelamin == "Laki-laki") {
                 $status = "Duda";
             }
+        $namaPdf .= $status . '_' . $penduduk->nama;
         }
-        $namaPdf .= '.pdf';
+        $namaPdf .='.pdf';
         $pdf = Pdf::loadView('cetak.cetak_skj',
         [
             'data' => $data,
