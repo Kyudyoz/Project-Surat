@@ -34,6 +34,8 @@
 @endsection
 
 @section('container')
+<img src="{{ asset('img/logo2.png') }}" alt="logo" class="rounded mx-auto d-block my-0">
+
 <div class="container1 pb-4 mt-4">
     <div class="row justify-content-center align-items-center">
         <div class="col-md-6">

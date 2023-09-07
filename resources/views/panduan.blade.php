@@ -35,7 +35,7 @@
 
 @section('container')
 
-
+<h1>Panduan</h1>
 
 @endsection
 
