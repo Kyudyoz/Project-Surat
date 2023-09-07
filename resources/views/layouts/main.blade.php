@@ -13,7 +13,7 @@
             width: 100%;
         }
         body {
-        background-image: url('/img/bg.jpg'); 
+        background-color: #FFF6D4 ; 
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
