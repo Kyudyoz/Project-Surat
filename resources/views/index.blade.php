@@ -48,15 +48,94 @@
             <div class="mx-3 my-3">
                 <a href="/skd" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Domisili</a>
             </div>
-            
+
             <div class="mx-3 my-3">
                 <a href="/skk" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Kematian</a>
             </div>
             <div class="mx-3 my-3">
                 <a href="/skj" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Janda/Duda</a>
             </div>
-            
+
         </div>
     </div>
 </div>
+
+
+@endsection
+
+
+@section('footer')
+<!-- Footer -->
+<footer class="footer text-center text-lg-start bg-white text-muted">
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-4">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-5 mx-auto mb-4 mt-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Tanda.RT
+            </h6>
+            <p>
+              Website pencetak surat keterangan tingkat RT. Membantu urusan anda dengan Cepat dan Tepat.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 mx-auto mb-4 mt-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Program
+            </h6>
+            <p>
+              <a href="/sktm" class="text-reset">Surat Keterangan Tidak Mampu</a>
+            </p>
+            <p>
+              <a href="/sku" class="text-reset">Surat Keterangan Usaha</a>
+            </p>
+            <p>
+              <a href="/skkr" class="text-reset">Surat Keterangan Kepemilikan Rumah</a>
+            </p>
+            <p>
+              <a href="/skd" class="text-reset">Surat Keterangan Domisili</a>
+            </p>
+            <p>
+              <a href="/skk" class="text-reset">Surat Keterangan Kematian</a>
+            </p>
+            <p>
+              <a href="skj" class="text-reset">Surat Keterangan Janda/Duda</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto mb-md-0 mb-4 mt-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <b class="text-reset fw-bold">TANDA.RT</b>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 @endsection
