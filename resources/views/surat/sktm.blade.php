@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('container')
-<div class="container1 my-4" >
+<div class="container1 my-4" style="padding-bottom: 10%" >
     <div class="row justify-content-center align-items-center" >
         <div class="col-md-6">
             <h2 class="text-center mb-4">Surat Keterangan Tidak Mampu</h2>
