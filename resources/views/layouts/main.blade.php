@@ -29,7 +29,6 @@
         @yield('container')
     </div>
 
-    
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-white text-muted">
   <!-- Section: Links  -->
