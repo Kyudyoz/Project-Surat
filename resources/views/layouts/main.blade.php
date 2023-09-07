@@ -13,12 +13,14 @@
             width: 100%;
         }
         body {
-        background-color: #FFF6D4 ; 
+        background-color: #FFF6D4 ;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         min-height: 100vh;
     }
+
+
     </style>
 </head>
 <body>
@@ -26,7 +28,7 @@
         <img src="{{ asset('img/logo2.png') }}" alt="logo" class="rounded mx-auto d-block my-0">
         @yield('container')
     </div>
-      
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
