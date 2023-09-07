@@ -18,10 +18,10 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Halaman Utama</a>
+            <a class="nav-link "  href="/">Halaman Utama</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/panduan">Panduan</a>
+            <a class="nav-link active" aria-current="page" href="/panduan">Panduan</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/tentang">Tentang</a>
@@ -34,34 +34,7 @@
 @endsection
 
 @section('container')
-<div class="container1 pb-4 mt-4">
-    <div class="row justify-content-center align-items-center">
-        <div class="col-md-6">
-            <div class="mx-3 my-3">
-                <a href="/sktm" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Tidak Mampu</a>
-            </div>
-            <div class="mx-3 my-3">
-                <a href="/sku" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Usaha</a>
-            </div>
-            <div class="mx-3 my-3">
-                <a href="/skkr" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Kepemilikan Rumah</a>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="mx-3 my-3">
-                <a href="/skd" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Domisili</a>
-            </div>
 
-            <div class="mx-3 my-3">
-                <a href="/skk" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Kematian</a>
-            </div>
-            <div class="mx-3 my-3">
-                <a href="/skj" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Janda/Duda</a>
-            </div>
-
-        </div>
-    </div>
-</div>
 
 
 @endsection

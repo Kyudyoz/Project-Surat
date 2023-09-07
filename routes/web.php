@@ -17,6 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/panduan', function () {
+    return view('panduan');
+});
+Route::get('/tentang', function () {
+    return view('tentang');
+});
 
 Route::get('/sktm', function () {
     return view('surat.sktm');
