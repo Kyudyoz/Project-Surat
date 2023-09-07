@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-    
+
     <div class="container mt-4">
         <img src="{{ asset('img/logo2.png') }}" alt="logo" class="rounded mx-auto d-block my-0">
         @yield('container')
