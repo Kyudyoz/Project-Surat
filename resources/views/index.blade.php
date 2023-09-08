@@ -35,11 +35,11 @@
 
 @section('container')
 
-<div style="width: 100%; height: 100%; background: white; border-radius: 15px">
+<div style="width: 100%; height: 100%; background: white; border-radius: 15px;">
 <img src="{{ asset('img/logo2.png') }}" alt="logo" class="rounded mx-auto d-block my-0 pb-4 pt-4 justify-content-center align-items-center">
 </div>
 
-<div class="container1 pb-4 mt-4">
+<div class="container1 pb-4 mt-2">
     <div class="row justify-content-center align-items-center">
         <!-- <div class="col-md-6">
             <div class="mx-3 my-3">

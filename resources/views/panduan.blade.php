@@ -35,12 +35,10 @@
 
 @section('container')
 
-<h6>Berikut adalah panduan penggunaan website TANDA.RT pembuat surat pengantar tingkat RT:</h6>
-
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="/img/Website.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Langkah 1: Akses Website</h5>
         <ol>
@@ -51,13 +49,14 @@
             Ketik alamat URL website pembuat surat pengantar tingkat RT yakni TANDA.RT di bilah alamat peramban dan tekan "Enter."
           </li>
         </ol>
+        <br><br><br><br><br><br><br><br><br>
       </div>
     </div>
   </div>
 
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="/img/Surat2.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Langkah 2: Membuat Surat Pengantar RT</h5>
         Setelah Anda mengakses website, Anda dapat mulai membuat surat pengantar RT:
@@ -84,7 +83,7 @@
 
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="/img/Preview.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Langkah 3: Preview dan Unduh</h5>
         <ol>
@@ -104,7 +103,7 @@
 
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="/img/Selesai.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Langkah 4: Selesai</h5>
         <ol>
@@ -115,13 +114,15 @@
           Jika Anda perlu membuat surat pengantar baru, Anda dapat mengulangi langkah-langkah di atas.
           </li>
         </ol>
+        <br><br><br>
       </div>
     </div>
   </div>
 </div>
 </p>
+<br>
 <div class="col">
-    <div class="card">
+    <div class="card text-white bg-danger">
       <div class="card-body">
         <h5 class="card-title">Catatan Penting:</h5>
           <li>
@@ -130,10 +131,10 @@
           <li>
           Simpan salinan digital atau fisik dari surat pengantar RT yang Anda buat untuk referensi di masa mendatang.
           </li>
-        Demikianlah panduan penggunaan website pembuat surat pengantar tingkat RT. Pastikan untuk mengikuti petunjuk yang ada di website tersebut untuk pengalaman yang lebih lancar
       </div>
     </div>
   </div>
+  <br>
 
 @endsection
 

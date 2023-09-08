@@ -44,6 +44,7 @@
         <p class="card-text "><b>TANDA.RT</b> adalah website pencetak surat keterangan tingkat RT. Website ini hadir untuk memudahkan warga untuk membuat surat tersebut. Hanya dengan mengisikan data NIK dan atau data lainnya, warga langsung dapat mencetak surat.
         Sebelum itu, pastikan bahwa data diri anda telah terdaftar pada lingkungan RT anda. Jika data telah terdaftar, barulah anda dapat menggunakan website ini.</p>
       </div>
+      <br><br><br>
     </div>
   </div>
   <div class="col">
@@ -78,11 +79,13 @@
           </li>
         </ol>
       </div>
+      <br>
     </div>
   </div>
   </div>
     </div>
 </div>
+<br>
 
 @endsection
 
