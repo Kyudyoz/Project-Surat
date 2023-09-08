@@ -68,7 +68,7 @@
       <img src="/img/SKTM.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Surat Keterangan Tidak Mampu</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Surat Keterangan Tidak Mampu adalah dokumen resmi yang membuktikan bahwa seseorang atau keluarganya tidak memiliki kemampuan finansial untuk memenuhi kebutuhan dasar mereka. Ini digunakan untuk mengajukan bantuan sosial atau keringanan biaya.</p>
       </div>
       <div class="mx-3 my-3">
                 <a href="/sktm" class="btn btn-dark btn-lg custom-btn">Buat SKTM</a>
@@ -81,7 +81,7 @@
       <img src="/img/SKU.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Surat Keterangan Usaha</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">Surat Keterangan Usaha adalah dokumen yang memberikan informasi terkait dengan jenis, alamat, dan detail usaha yang sedang dijalankan oleh seseorang atau perusahaan. Dokumen ini dapat digunakan dalam berbagai keperluan, seperti untuk mengajukan izin usaha, memenuhi persyaratan perbankan, atau sebagai bukti eksistensi usaha dalam berbagai transaksi bisnis.</p>
       </div>
       <div class="mx-3 my-3">
                 <a href="/sku" class="btn btn-dark btn-lg custom-btn">Buat SKU</a>
@@ -94,7 +94,7 @@
       <img src="/img/SKKR.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Surat Keterangan Kepemilikan Rumah</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text">Surat Keterangan Kepemilikan Rumah adalah dokumen resmi yang menunjukkan bahwa seseorang atau entitas adalah pemilik sah dari sebuah rumah atau properti. Surat ini digunakan dalam berbagai transaksi properti, pinjaman hipotek, atau sebagai bukti kepemilikan dalam kasus hukum atau pajak.</p>
       </div>
       <div class="mx-3 my-3">
                 <a href="/skkr" class="btn btn-dark btn-lg custom-btn">Buat SKKR</a>
@@ -107,7 +107,7 @@
       <img src="/img/SKD.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Surat Keterangan Domisili</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">Surat Keterangan Domisili adalah dokumen resmi yang memberikan bukti alamat tempat tinggal seseorang atau entitas pada suatu wilayah tertentu. Dokumen ini sering digunakan untuk keperluan administratif seperti pembuatan dokumen, pembukaan rekening bank, atau proses perizinan. Surat ini mencakup informasi alamat lengkap dan sering dikeluarkan oleh pihak berwenang setempat atau lembaga yang berwenang.</p>
       </div>
       <div class="mx-3 my-3">
                 <a href="/skd" class="btn btn-dark btn-lg custom-btn">Buat SKD</a>
@@ -120,7 +120,7 @@
       <img src="/img/SKK.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Surat Keterangan Kematian</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text">Surat Keterangan Kematian adalah dokumen resmi yang menerangkan fakta bahwa seseorang telah meninggal dunia. Dokumen ini berisi informasi mengenai nama lengkap orang yang meninggal, tanggal dan tempat kematian, serta penyebab kematian jika diketahui. Surat keterangan ini penting untuk proses administratif seperti warisan, klaim asuransi, atau tata kelola administrasi kematian.</p>
       </div>
       <div class="mx-3 my-3">
                 <a href="/skk" class="btn btn-dark btn-lg custom-btn">Buat SKK</a>
@@ -133,7 +133,7 @@
       <img src="/img/SKJ.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Surat Keterangan Janda/Duda</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text">Surat Keterangan Janda/Duda adalah dokumen resmi yang menegaskan status seseorang sebagai janda atau duda, yang biasanya diterbitkan oleh instansi pemerintah setempat atau lembaga yang berwenang. Dokumen ini dapat digunakan untuk mengajukan klaim warisan, keuntungan sosial, atau perubahan status pernikahan setelah kematian pasangan. Surat keterangan ini mencakup informasi mengenai identitas individu, status perkawinan sebelumnya, dan bukti kematian pasangan.</p>
       </div>
       <div class="mx-3 my-3">
                 <a href="/skj" class="btn btn-dark btn-lg custom-btn">Buat SKJ/D</a>
