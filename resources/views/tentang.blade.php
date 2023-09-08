@@ -6,7 +6,7 @@
   <a class="navbar-brand" href="#">
       <img src="/img/logo2.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
   </a>
-  <a><b>SELAMAT DATANG WARGA KU TERCINTA</b></a>
+  <a><b>TENTANG</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,8 +35,51 @@
 
 @section('container')
 
+<div class="container1 pb-4" style="margin-top:50px;">
+    <div class="row justify-content-center align-items-center">
+      <h4><b>PROFIL</b></h4>
+        <h8><b>TANDA.RT</b> adalah website pencetak surat keterangan tingkat RT. Website ini hadir untuk memudahkan warga untuk membuat surat tersebut. Hanya dengan mengisikan data NIK dan atau data lainnya, warga langsung dapat mencetak surat.
+        Sebelum itu, pastikan bahwa data diri anda telah terdaftar pada lingkungan RT anda. Jika data telah terdaftar, barulah anda dapat menggunakan website ini.
+        </h8>
+      <p style="margin-top:10px">
+      <h4><b>VISI & MISI</b></h4>
+        <h8><b>VISI</b> <br>Menjadi sumber terpercaya dan efisien untuk memfasilitasi pembuatan Surat Keterangan Tingkat RT secara cepat dan tepat.
+        </h8>
+        
+        <h8><b>MISI</b> <br>
+        <ol>
+          <li>
+            Membantu Warga dalam Pengurusan Surat Keterangan. Menyediakan platform yang memudahkan warga untuk mengajukan permohonan Surat Keterangan Tingkat RT dengan proses yang sederhana dan cepat.
+          </li>
+          <li>
+            Peningkatan Keterbukaan dan Transparansi. Menyediakan informasi yang jelas dan transparan tentang persyaratan dan prosedur yang terkait dengan pembuatan Surat Keterangan Tingkat RT.
+          </li>
+          <li>
+            Kualitas Layanan yang Unggul. Memastikan pelayanan yang cepat dan berkualitas dengan dukungan dari petugas RT yang kompeten dan responsif.
+          </li>
+          <li>
+            Keamanan dan Kepercayaan. Mengamankan data pribadi warga dengan baik serta menjaga kerahasiaan informasi yang diajukan dalam proses pengajuan Surat Keterangan Tingkat RT.
+          </li>
+          <li>
+            Teknologi. Terus mengembangkan dan memperbarui teknologi dan fitur-fitur website untuk meningkatkan efisiensi dan kenyamanan pengguna.
+          </li>
 
-<h1>Tentang</h1>
+          <li>
+            Kolaborasi dengan Pihak Terkait. Bekerja sama dengan pihak-pihak terkait seperti pemerintah daerah dan instansi terkait untuk memastikan bahwa Surat Keterangan Tingkat RT yang diterbitkan sesuai dengan regulasi yang berlaku.
+          </li>
+
+          <li>
+            Kolaborasi dengan Pihak Terkai. Bekerja sama dengan pihak-pihak terkait seperti pemerintah daerah dan instansi terkait untuk memastikan bahwa Surat Keterangan Tingkat RT yang diterbitkan sesuai dengan regulasi yang berlaku.
+          </li>
+          <li>
+            Pemberdayaan Masyarakat. Memberikan edukasi kepada warga tentang pentingnya Surat Keterangan Tingkat RT dan peran mereka dalam pembuatan serta penggunaannya.
+          </li>
+
+        </ol>
+        </h8>
+      </p>
+    </div>
+</div>
 
 @endsection
 
@@ -92,14 +135,14 @@
           <!-- Grid column -->
           <div class="col-md-3 mx-auto mb-md-0 mb-4 mt-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <h6 class="text-uppercase fw-bold mb-4">Kontak</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> Jambi 36613, Indonesia</p>
             <p>
               <i class="fas fa-envelope me-3 text-secondary"></i>
-              info@example.com
+              tandart@gmail.com
             </p>
-            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 621234567891</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 622345678912</p>
           </div>
           <!-- Grid column -->
         </div>

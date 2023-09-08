@@ -38,7 +38,7 @@
 
 <div class="container1 pb-4 mt-4">
     <div class="row justify-content-center align-items-center">
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
             <div class="mx-3 my-3">
                 <a href="/sktm" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Tidak Mampu</a>
             </div>
@@ -61,7 +61,86 @@
                 <a href="/skj" class="btn btn-dark btn-lg custom-btn">Surat Keterangan Janda/Duda</a>
             </div>
 
-        </div>
+        </div> -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="/img/SKTM.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Surat Keterangan Tidak Mampu</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="mx-3 my-3">
+                <a href="/sktm" class="btn btn-dark btn-lg custom-btn">Buat SKTM</a>
+            </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="card h-100">
+      <img src="/img/SKU.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Surat Keterangan Usaha</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="mx-3 my-3">
+                <a href="/sku" class="btn btn-dark btn-lg custom-btn">Buat SKU</a>
+            </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="/img/SKKR.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Surat Keterangan Kepemilikan Rumah</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="mx-3 my-3">
+                <a href="/skkr" class="btn btn-dark btn-lg custom-btn">Buat SKKR</a>
+            </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="/img/SKD.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Surat Keterangan Domisili</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="mx-3 my-3">
+                <a href="/skd" class="btn btn-dark btn-lg custom-btn">Buat SKD</a>
+            </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="/img/SKK.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Surat Keterangan Kematian</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="mx-3 my-3">
+                <a href="/skk" class="btn btn-dark btn-lg custom-btn">Buat SKK</a>
+            </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="/img/SKJ.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Surat Keterangan Janda/Duda</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="mx-3 my-3">
+                <a href="/skj" class="btn btn-dark btn-lg custom-btn">Buat SKJ/D</a>
+            </div>
+    </div>
+  </div>
+</div>
     </div>
 </div>
 
@@ -119,14 +198,14 @@
           <!-- Grid column -->
           <div class="col-md-3 mx-auto mb-md-0 mb-4 mt-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <h6 class="text-uppercase fw-bold mb-4">Kontak</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> Jambi 36613, Indonesia</p>
             <p>
               <i class="fas fa-envelope me-3 text-secondary"></i>
-              info@example.com
+              tandart@gmail.com
             </p>
-            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 621234567891</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 622345678912</p>
           </div>
           <!-- Grid column -->
         </div>
