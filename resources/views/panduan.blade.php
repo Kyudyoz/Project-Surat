@@ -6,7 +6,7 @@
   <a class="navbar-brand" href="#">
       <img src="/img/logo2.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
   </a>
-  <a><b>SELAMAT DATANG WARGA KU TERCINTA</b></a>
+  <a><b>PANDUAN</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,6 +36,7 @@
 @section('container')
 
 <h1>Panduan</h1>
+
 
 @endsection
 
@@ -90,14 +91,14 @@
           <!-- Grid column -->
           <div class="col-md-3 mx-auto mb-md-0 mb-4 mt-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <h6 class="text-uppercase fw-bold mb-4">Kontak</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> Jambi 36613, Indonesia</p>
             <p>
               <i class="fas fa-envelope me-3 text-secondary"></i>
-              info@example.com
+              tandart@gmail.com
             </p>
-            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 621234567891</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 622345678912</p>
           </div>
           <!-- Grid column -->
         </div>
