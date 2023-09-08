@@ -35,25 +35,34 @@
 
 @section('container')
 
-<div class="container1 pb-4" style="margin-top:50px;">
-    <div class="row justify-content-center align-items-center">
-      <h4><b>PROFIL</b></h4>
-        <h8><b>TANDA.RT</b> adalah website pencetak surat keterangan tingkat RT. Website ini hadir untuk memudahkan warga untuk membuat surat tersebut. Hanya dengan mengisikan data NIK dan atau data lainnya, warga langsung dapat mencetak surat.
-        Sebelum itu, pastikan bahwa data diri anda telah terdaftar pada lingkungan RT anda. Jika data telah terdaftar, barulah anda dapat menggunakan website ini.
-        </h8>
-      <p style="margin-top:10px">
-      <h4><b>VISI & MISI</b></h4>
-        <h8><b>VISI</b> <br>Menjadi sumber terpercaya dan efisien untuk memfasilitasi pembuatan Surat Keterangan Tingkat RT secara cepat dan tepat.
-        </h8>
-        
-        <h8><b>MISI</b> <br>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+  <img src="{{ asset('img/logo2.png') }}" alt="logo" class="rounded mx-auto d-block my-0 pb-4 pt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">PROFIL</h4>
+        <p class="card-text "><b>TANDA.RT</b> adalah website pencetak surat keterangan tingkat RT. Website ini hadir untuk memudahkan warga untuk membuat surat tersebut. Hanya dengan mengisikan data NIK dan atau data lainnya, warga langsung dapat mencetak surat.
+        Sebelum itu, pastikan bahwa data diri anda telah terdaftar pada lingkungan RT anda. Jika data telah terdaftar, barulah anda dapat menggunakan website ini.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">VISI & MISI</h4>
+        <p class="card-text">
+          <b>VISI</b> <br>Menjadi sumber terpercaya dan efisien untuk memfasilitasi pembuatan Surat Keterangan Tingkat RT secara cepat dan tepat.
+        </p>
+        <b>MISI</b>
         <ol>
           <li>
             Membantu Warga dalam Pengurusan Surat Keterangan. Menyediakan platform yang memudahkan warga untuk mengajukan permohonan Surat Keterangan Tingkat RT dengan proses yang sederhana dan cepat.
           </li>
+
           <li>
-            Peningkatan Keterbukaan dan Transparansi. Menyediakan informasi yang jelas dan transparan tentang persyaratan dan prosedur yang terkait dengan pembuatan Surat Keterangan Tingkat RT.
+            Peningkatan Keterbukaan dan Transparansi. Menyediakan informasi yang jelas tentang persyaratan dan prosedur.
           </li>
+
           <li>
             Kualitas Layanan yang Unggul. Memastikan pelayanan yang cepat dan berkualitas dengan dukungan dari petugas RT yang kompeten dan responsif.
           </li>
@@ -61,23 +70,17 @@
             Keamanan dan Kepercayaan. Mengamankan data pribadi warga dengan baik serta menjaga kerahasiaan informasi yang diajukan dalam proses pengajuan Surat Keterangan Tingkat RT.
           </li>
           <li>
-            Teknologi. Terus mengembangkan dan memperbarui teknologi dan fitur-fitur website untuk meningkatkan efisiensi dan kenyamanan pengguna.
+            Teknologi. Terus mengembangkan dan memperbarui teknologi dan fitur website untuk meningkatkan efisiensi dan kenyamanan pengguna.
           </li>
 
           <li>
-            Kolaborasi dengan Pihak Terkait. Bekerja sama dengan pihak-pihak terkait seperti pemerintah daerah dan instansi terkait untuk memastikan bahwa Surat Keterangan Tingkat RT yang diterbitkan sesuai dengan regulasi yang berlaku.
+            Pemberdayaan Masyarakat. Memberikan edukasi tentang pentingnya Surat Keterangan Tingkat RT dan peran mereka dalam pembuatan serta penggunaannya.
           </li>
-
-          <li>
-            Kolaborasi dengan Pihak Terkai. Bekerja sama dengan pihak-pihak terkait seperti pemerintah daerah dan instansi terkait untuk memastikan bahwa Surat Keterangan Tingkat RT yang diterbitkan sesuai dengan regulasi yang berlaku.
-          </li>
-          <li>
-            Pemberdayaan Masyarakat. Memberikan edukasi kepada warga tentang pentingnya Surat Keterangan Tingkat RT dan peran mereka dalam pembuatan serta penggunaannya.
-          </li>
-
         </ol>
-        </h8>
-      </p>
+      </div>
+    </div>
+  </div>
+  </div>
     </div>
 </div>
 
